@@ -1,7 +1,8 @@
 import java.util.*;
 
-class largestElement {
+class solution {
     // Approach 2: Optimal Approach
+    // TC: O(n) SC:O(1)
     public static int printLargest(int arr[]) {
         // Step 1: Assume first element is largest in array:
         int largest = arr[0];
@@ -14,17 +15,19 @@ class largestElement {
             }
         }
         return largest;
-        // TC: O(n) SC:O(1)
+
     }
 
     public static void main(String[] args) {
         int arr[] = { 2, 5, 1, 3, 0 };
         int n = arr.length;
         // Approach 1: Use Built in method to sort the array:
+        // TC: O(N*logn) SC:O(1)
         Arrays.sort(arr);
         // The Largest element will be the last element:
         System.out.println(arr[n - 1]);
-        // TC: O(N*logn) SC:O(1)
+
+        // Function Calls:
         System.out.println(printLargest(arr));
     }
 }

@@ -1,8 +1,9 @@
 import java.util.*;
 
-class SecondLargest {
+class solution {
     // Approach 2: Optimal Approach:
     // TC: O(n) SC: O(1)
+
     // function to find smallest & second smallest:
     public static void secondSmallest(int arr[], int n) {
         // Edge Case:
@@ -85,6 +86,7 @@ class SecondLargest {
 
         // Approach 1: Brute Force:
         // TC:O(N*logn) SC:O(1)
+
         // Step 1: Sort the array by inbuilt method:
         Arrays.sort(arr);
         // Step 2: Second largest element will be the second last element
@@ -94,7 +96,7 @@ class SecondLargest {
 
         // Edge case: when there is only a single element present
 
-        // calls:
+        // Function calls:
         secondSmallest(arr, n);
         secondLargest(arr, n);
     }

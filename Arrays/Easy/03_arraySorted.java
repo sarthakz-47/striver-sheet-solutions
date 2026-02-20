@@ -1,4 +1,4 @@
-class ArraySorted {
+class solution {
     public static boolean sortedBruteForce(int arr[], int n) {
         // Approach 1: Brute Force
         // TC:O(n^2) SC:O(1)
@@ -46,7 +46,7 @@ class ArraySorted {
         int arr[] = { 1, 2, 3, 4, 5 };
         int n = arr.length;
 
-        // calls:
+        // Function calls:
         System.out.println(sortedBruteForce(arr, n));
         System.out.println(sortedOptimal(arr, n));
     }
