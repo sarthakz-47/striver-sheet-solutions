@@ -32,3 +32,6 @@ class bubbleSort {
 
 // Next pass:
 // Compare 2 and 1 → swap → {1, 2, 3}
+
+// For decending:
+// just update from arr[j] > arr[j + 1] -> arr[j] < arr[j + 1]

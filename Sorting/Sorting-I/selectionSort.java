@@ -17,7 +17,7 @@ public class selectionSort {
       }
 
       public static void main(String[] args) {
-            int arr[] = { 5, 4, 3 };
+            int arr[] = { 1, 7, 3, 2, 11 };
             sortSelection(arr);
             for (int nums : arr) {
                   System.out.print(nums + " ");
@@ -32,3 +32,6 @@ public class selectionSort {
 
 // Smallest is 1 (index 2) store idx not value
 // Swap with first element → {1, 2, 3}
+
+// For decending:
+// just update from arr[minIdx] > arr[j] -> arr[minIdx] < arr[j]

@@ -15,7 +15,7 @@ public class insertionSort {
       }
 
       public static void main(String[] args) {
-            int arr[] = { 5, 4, 3 };
+            int arr[] = { 5, 7, 2, 1, 11 };
             sortInsertion(arr);
             for (int nums : arr) {
                   System.out.print(nums + " ");
@@ -40,3 +40,6 @@ public class insertionSort {
 // Move 3 right
 // Move 2 right
 // Insert 1 → {1, 2, 3}
+
+// For decending:
+// just update from arr[j] > minElement -> arr[j] < minElement
