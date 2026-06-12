@@ -1,6 +1,13 @@
 class spiralMatrix {
 
-      public static void printSprial(int[][] arr) {
+      public static void printSpiral(int[][] arr) {
+            // Approch: O(n*m) pattern approach
+            // 1.four pointers top,bottom,left,right
+            // 2.print top then move top downwards
+            // 3.print right then move inwards
+            // 4.print bottom then move upwards
+            // 5.print left then move inwards
+
             int n = arr.length;
             int m = arr[0].length;
 
@@ -34,10 +41,14 @@ class spiralMatrix {
                         left++;
                   }
             }
+
       }
 
       public static void main(String[] args) {
-            int arr[][] = { { 1, 2 }, { 3, 4 } };
-
+            int arr[][] = { { 1, 2, 3 },
+                        { 5, 6, 7 },
+                        { 7, 8, 9, }
+            };
+            printSpiral(arr);
       }
 }
