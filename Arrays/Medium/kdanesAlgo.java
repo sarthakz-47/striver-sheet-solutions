@@ -1,4 +1,6 @@
-class Solution {
+package Arrays.Medium;
+
+class Soltuion {
       public static int maxSubArray(int[] nums) {
             int cs = 0;
             int ms = Integer.MIN_VALUE;

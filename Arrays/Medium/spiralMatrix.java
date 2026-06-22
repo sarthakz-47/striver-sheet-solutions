@@ -1,4 +1,6 @@
-class spiralMatrix {
+package Arrays.Medium;
+
+class Solution {
 
       public static void printSpiral(int[][] arr) {
             // Approch: O(n*m) pattern approach

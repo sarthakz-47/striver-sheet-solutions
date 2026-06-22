@@ -1,4 +1,6 @@
-public class stocksBuySell {
+package Arrays.Medium;
+
+class Solution {
       public static int maxProfit(int[] prices) {
             int n = prices.length;
             int profit = 0;
