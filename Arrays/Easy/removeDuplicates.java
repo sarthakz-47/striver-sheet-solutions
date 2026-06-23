@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class removeDuplicates {
 
       public static int removeDuplicatesSorted(int[] arr) {

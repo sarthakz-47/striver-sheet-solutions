@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class rotateArrayKplace {
 
       public static void reverse(int nums[], int low, int high) {

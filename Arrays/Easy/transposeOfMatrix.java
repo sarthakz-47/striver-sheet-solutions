@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class transposeOfMatrix {
       public static int[][] transpose(int[][] mat) {
             int n = mat.length;

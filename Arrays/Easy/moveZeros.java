@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class moveZeros {
       public static void moveZerosEnd(int nums[]) {
             // Approach: Two pointers -> O(n)

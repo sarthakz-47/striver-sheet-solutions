@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class digonalSum {
       public static int matrixDiagonalSum(int[][] mat) {
             int n = mat.length;

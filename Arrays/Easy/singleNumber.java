@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class singleNumber {
 
       public static int findSingleNum(int[] arr) {

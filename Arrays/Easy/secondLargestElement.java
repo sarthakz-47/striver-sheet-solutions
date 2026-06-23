@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 class Solution {
 	public static int secondLargest(int nums[]) {
 		// Approach: O(n)

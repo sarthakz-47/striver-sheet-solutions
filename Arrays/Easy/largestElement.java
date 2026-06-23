@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 class Solution {
 	public static int largestElement(int[] nums) {
 		// Approach: O(n)

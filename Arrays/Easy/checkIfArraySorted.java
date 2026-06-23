@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class checkIfArraySorted {
 
       public static boolean isSorted(int[] arr) {

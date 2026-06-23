@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class RotateArrayOnePlace {
       public static int[] leftRotateArrayByOnePlace(int[] arr) {
             // Approach: O(n)

@@ -1,3 +1,5 @@
+package Arrays.Easy;
+
 public class maxCosucutiveOnes {
       public static int findMaxConsecutiveOnes(int[] nums) {
 
